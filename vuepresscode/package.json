@@ -1,0 +1,20 @@
+{
+  "name": "vuepressdome",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "@vuepress/theme-default": "^1.9.7",
+    "vuepress": "^1.9.7",
+    "vuepress-bar": "^0.4.2",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-medium-zoom": "^1.1.9",
+    "vuepress-plugin-smooth-scroll": "^0.0.10",
+    "vuepress-theme-succinct": "^1.7.2"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}

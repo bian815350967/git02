@@ -1,0 +1,3 @@
+<template>
+  <svg class="icon" style="width: 1em;height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="684"><path d="M922 607.1V887H102V157h612.2V58.2l200 125-200 125V207H152v630h720V607.1h50zM560.5 737.6V306.4h-34c-9.2 18.6-24.8 37.7-46.9 57.4-22.1 19.7-47.9 36.5-77.3 50.4v51c16.4-6.1 34.9-15.1 55.5-27.2s37.3-24.2 50-36.3v336h52.7z" fill="" p-id="685"></path></svg>
+</template>

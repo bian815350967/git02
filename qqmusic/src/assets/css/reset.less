@@ -1,0 +1,80 @@
+html, body, div, span,iframe,
+h1, h2, h3, h4, h5, h6, p,  pre,
+a, code,
+del, em, img, ins, kbd, q, s, samp,
+small,  strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+ form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details,
+ footer, header,
+menu, nav, output,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+img{
+  display: block;
+}
+
+input, textarea{
+  &::-webkit-input-placeholder {
+    color: #a1acbf;
+  }
+
+  /* 使用webkit内核的浏览器 */
+  &:-moz-placeholder {
+    color: #a1acbf;
+  }
+
+  /* Firefox版本4-18 */
+  &::-moz-placeholder {
+    color: #a1acbf;
+  }
+
+  /* Firefox版本19+ */
+  &:-ms-input-placeholder {
+    color: #a1acbf;
+  }
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+textarea{
+  resize: none;
+  outline: none;
+}
+
+input{
+  outline: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

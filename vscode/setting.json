@@ -1,0 +1,86 @@
+{
+  "workbench.iconTheme": "material-icon-theme",  
+  "eslint.run": "onType",
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".vue",
+      ".json"
+    ]
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.suggestSelection": "first",
+  "javascript.suggestionActions.enabled": false,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "wxml": "html"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.tabs.enabled": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "fileheader.customMade": {
+    "Author": "master",
+    "Date": "",
+    "LastEditTime": "",
+    "Description": ""
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "minapp-vscode.wxmlFormatter": "prettyHtml",
+  "minapp-vscode.prettyHtml": {
+    "useTabs": false,
+    "tabWidth": 2,
+    "printWidth": 100,
+    "singleQuote": false,
+    "usePrettier": true,
+    "wrapAttributes": false,
+    "sortAttributes": false
+  },
+  "prettier.enableDebugLogs": true,
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "path-autocomplete.pathMappings": {
+    "@": "${folder}/src"
+  },
+  "files.autoSave": "onFocusChange",
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+  "gitlens.defaultDateFormat": null,
+  "vetur.ignoreProjectWarning": true,
+  "vetur.validation.script": false,
+  "svg.preview.mode": "svg"
+}
